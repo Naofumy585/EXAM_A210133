@@ -1,0 +1,81 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Pomperrier', sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+body, div, form, nav, ul, li, img, p, h1, input, section {
+    border-radius: 6px;
+}
+
+/* Ajusta el estilo del navbar según tus necesidades */
+.navbar {
+    margin-left: auto;
+}
+.nav-item{
+    margin-right: auto;
+    margin-right: 10px;
+    color: #ff0000;
+}
+section nav{
+    background-color: rgb(41, 38, 38);
+}
+ul li p{
+    
+}
+
+/* Ajusta el estilo del banner según tus necesidades */
+.banner {
+    /* Estilos del banner */
+}
+
+/* Ajusta el estilo de los productos según tus necesidades */
+.col-md-4 {
+    flex: 1;
+    margin: 10px; /* Ajusta el margen entre los elementos si es necesario */
+    text-align: center;
+}
+
+/* Ajusta el estilo de las imágenes de especialidades según tus necesidades */
+.Img-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Caja {
+    flex: 1;
+    margin: 10px; /* Ajusta el margen entre las imágenes si es necesario */
+    text-align: center;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.col-md-4 {
+    color: #161515; /* Color gris */
+}
+.navbar-nav.ml-auto li {
+    float: right;
+}
+.nav-item{
+    float: right;
+    text-align: right;
+}
+
+.navbar-nav.ml-auto li a {
+    transition: background-color 0.3s ease; /* Agrega transición para suavizar el cambio de color */
+}
+
+.navbar-nav.ml-auto li a:hover {
+    border-radius: 6px;
+    background-color:rgb(230, 59, 59); /* Cambia el fondo al hacer hover */
+    color: #000000; /* Cambia el color del texto para que sea legible en el fondo rojo */
+}
